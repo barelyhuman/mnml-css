@@ -27,7 +27,7 @@
   overflow: hidden;
   outline: none;
 }
-.button :hover {
+.button:hover {
   background: white;
   border: 1px solid black;
   color: black;

@@ -255,7 +255,7 @@ th {
   overflow: hidden;
   outline: none;
 }
-.button :hover {
+.button:hover {
   background: white;
   border: 1px solid black;
   color: black;
@@ -327,7 +327,7 @@ th {
   font-weight: 400;
   text-decoration: none;
 }
-.action-link :hover {
+.action-link:hover {
   color: black;
   cursor: pointer;
 }
