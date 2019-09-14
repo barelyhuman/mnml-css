@@ -1,5 +1,5 @@
 .padding-sm {
-  margin: 8px;
+  padding: 8px;
 }
 
 .padding-top-sm {
@@ -19,7 +19,7 @@
 }
 
 .padding-md {
-  margin: 16px;
+  padding: 16px;
 }
 
 .padding-top-md {
@@ -39,7 +39,7 @@
 }
 
 .padding-lg {
-  margin: 24px;
+  padding: 24px;
 }
 
 .padding-top-lg {

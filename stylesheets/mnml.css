@@ -393,7 +393,7 @@ th {
 }
 
 .padding-sm {
-  margin: 8px;
+  padding: 8px;
 }
 
 .padding-top-sm {
@@ -413,7 +413,7 @@ th {
 }
 
 .padding-md {
-  margin: 16px;
+  padding: 16px;
 }
 
 .padding-top-md {
@@ -433,7 +433,7 @@ th {
 }
 
 .padding-lg {
-  margin: 24px;
+  padding: 24px;
 }
 
 .padding-top-lg {
