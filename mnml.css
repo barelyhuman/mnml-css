@@ -112,6 +112,10 @@ strong {
   justify-content: flex-end;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .m-sm {
   margin: var(--gap-small);
 }
@@ -170,6 +174,10 @@ strong {
 
 .mr-lg {
   margin-right: var(--gap-large);
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .p-sm {
@@ -302,4 +310,10 @@ button.minimal:disabled {
   border: 0px;
   color: var(--secondary-color);
   background: var(--primary-color);
+}
+
+pre > code {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: var(--gap-small);
 }
