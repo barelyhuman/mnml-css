@@ -1,0 +1,305 @@
+@import url('https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css');
+
+:root {
+  --primary-color: #fde5da;
+  --secondary-color: #545454;
+  --border-radius: 2px;
+  --border-width: 2px;
+  --gap-small: 5px;
+  --gap-medium: 12px;
+  --gap-large: 20px;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+th,
+strong {
+  color: var(--secondary-color);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.align-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.self-align-end {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.self-align-start {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.self-align-center {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.justify-space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.justify-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.m-sm {
+  margin: var(--gap-small);
+}
+
+.mt-sm {
+  margin-top: var(--gap-small);
+}
+
+.ml-sm {
+  margin-left: var(--gap-small);
+}
+
+.mb-sm {
+  margin-bottom: var(--gap-small);
+}
+
+.mr-sm {
+  margin-right: var(--gap-small);
+}
+
+.m-md {
+  margin: var(--gap-medium);
+}
+
+.mt-md {
+  margin-top: var(--gap-medium);
+}
+
+.ml-md {
+  margin-left: var(--gap-medium);
+}
+
+.mb-md {
+  margin-bottom: var(--gap-medium);
+}
+
+.mr-md {
+  margin-right: var(--gap-medium);
+}
+
+.m-lg {
+  margin: var(--gap-large);
+}
+
+.mt-lg {
+  margin-top: var(--gap-large);
+}
+
+.ml-lg {
+  margin-left: var(--gap-large);
+}
+
+.mb-lg {
+  margin-bottom: var(--gap-large);
+}
+
+.mr-lg {
+  margin-right: var(--gap-large);
+}
+
+.p-sm {
+  padding: var(--gap-small);
+}
+
+.pt-sm {
+  padding-top: var(--gap-small);
+}
+
+.pl-sm {
+  padding-left: var(--gap-small);
+}
+
+.pb-sm {
+  padding-bottom: var(--gap-small);
+}
+
+.pr-sm {
+  padding-right: var(--gap-small);
+}
+
+.p-md {
+  padding: var(--gap-medium);
+}
+
+.pt-md {
+  padding-top: var(--gap-medium);
+}
+
+.pl-md {
+  padding-left: var(--gap-medium);
+}
+
+.pb-md {
+  padding-bottom: var(--gap-medium);
+}
+
+.pr-md {
+  padding-right: var(--gap-medium);
+}
+
+.p-lg {
+  padding: var(--gap-large);
+}
+
+.pt-lg {
+  padding-top: var(--gap-large);
+}
+
+.pl-lg {
+  padding-left: var(--gap-large);
+}
+
+.pb-lg {
+  padding-bottom: var(--gap-large);
+}
+
+.pr-lg {
+  padding-right: var(--gap-large);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+button {
+  border-radius: var(--border-radius);
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: var(--border-width) solid var(--secondary-color);
+}
+
+button:hover {
+  border: var(--border-width) solid var(--secondary-color);
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+button:disabled {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: var(--border-width) solid var(--secondary-color);
+}
+
+button.outline {
+  border: var(--border-width) solid var(--secondary-color);
+  color: var(--secondar-color);
+  background: var(--primary-color);
+}
+
+button.outline:hover {
+  border: var(--border-width) solid var(--secondary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+button.outline:disabled {
+  border: var(--border-width) solid var(--secondary-color);
+  color: var(--secondar-color);
+  background: var(--primary-color);
+}
+
+button.minimal {
+  border: 0px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+button.minimal:hover {
+  border: 0px;
+  text-decoration: underline;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+button.minimal:disabled {
+  border: 0px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
