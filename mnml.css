@@ -252,6 +252,14 @@ strong {
   padding-right: var(--gap-large);
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
 .text-left {
   text-align: left;
 }
