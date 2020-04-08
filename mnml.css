@@ -409,7 +409,7 @@ blockquote {
 
 .checkbox input[type='checkbox'] ~ .checkbox-icon {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   height: 1.25rem;
   width: 1.25rem;
@@ -417,11 +417,12 @@ blockquote {
   transition: background 250ms;
   border: 1px solid var(--secondary-color);
   border-radius: 0.125rem;
+  transform: translateY(-50%);
 }
 
 .checkbox input[type='radio'] ~ .checkbox-icon {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   height: 1.25rem;
   width: 1.25rem;
@@ -429,6 +430,7 @@ blockquote {
   transition: background 250ms;
   border: 1px solid var(--secondary-color);
   border-radius: 2rem;
+  transform: translateY(-50%);
 }
 
 .checkbox input[type='checkbox'] ~ .checkbox-icon::after {
