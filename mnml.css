@@ -349,6 +349,8 @@ input[type='checkbox'],
 input[type='radio'],
 input[type='submit'],
 input[type='button'],
+input[type='number'],
+input[type='file'],
 select,
 textarea {
   background: var(--secondary-color);
