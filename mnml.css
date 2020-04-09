@@ -333,7 +333,7 @@ button.minimal:disabled {
 }
 
 pre > code {
-  background: var(--secondary-color);
+  background: var(--secondary-color) !important;
   color: var(--primary-color) !important;
   padding: var(--gap-small);
 }
