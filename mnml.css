@@ -353,6 +353,8 @@ input[type='number'],
 input[type='file'],
 select,
 textarea {
+  border-radius: var(--border-radius);
+  border-width: var(--border-width);
   background: var(--secondary-color);
   color: var(--primary-color);
 }
