@@ -372,8 +372,8 @@ textarea,
   margin-right: 6px;
   margin-bottom: 6px;
   padding: 10px;
-  border: none;
-  border-radius: 6px;
+  border-radius: var(--border-radius);
+  border-width: var(--border-width);
   outline: none;
 }
 
